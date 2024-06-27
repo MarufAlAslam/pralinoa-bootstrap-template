@@ -6,7 +6,7 @@
     color: #8a8a8a !important;
 }
 
-.nav-link.active{
+.nav-link.active {
     color: #2b2b2b !important;
 }
 
@@ -30,4 +30,16 @@
     color: #e8e8e8;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.about {
+    background-color: #e8e8e8;
+    background-image: url("../img/about-img.png");
+    background-size: 60% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
 }
