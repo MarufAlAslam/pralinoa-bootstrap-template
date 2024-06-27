@@ -2,6 +2,12 @@
     font-family: "Sen", sans-serif;
 }
 
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 .nav-link {
     color: #8a8a8a !important;
 }
@@ -38,8 +44,20 @@
 
 .about {
     background-color: #e8e8e8;
-    background-image: url("../img/about-img.png");
-    background-size: 60% 100%;
-    background-position: right;
-    background-repeat: no-repeat;
+}
+
+.border-l-white {
+    border-left: 10px solid white;
+}
+
+.text-orange {
+    color: #b87333;
+}
+
+.text-5f5f5f {
+    color: #5f5f5f;
+}
+
+.fs-15 {
+    font-size: 15px;
 }
