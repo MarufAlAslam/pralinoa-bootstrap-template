@@ -132,3 +132,16 @@ iframe {
 .card:hover .card-body.position-absolute {
     transform: translateX(0);
 }
+
+@media screen and (max-width: 767px) {
+    .fs-48 {
+        font-size: 30px;
+    }
+
+    .d-inline-flex.border.py-2.px-5.justify-content-center.align-items-center.gap-4 {
+        flex-direction: column;
+    }
+    iframe{
+        height: 400px;
+    }
+}
