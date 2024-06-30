@@ -31,6 +31,37 @@
 
 <body id="home">
 
+    <!-- cookie modal -->
+    <div class="cookie-card" id="cookie-card">
+        <div class="text-center">
+            <img src="img/cookies.png" class="img-fluid cookie-logo" alt="">
+
+            <div class="d-flex my-5 justify-content-center gap-4 align-items-center">
+                <button class="btn btn-gray text-uppercase fw-bold rounded-0 px-4" id="agree">
+                    souhlasím
+                </button>
+                <button class="btn btn-gray text-uppercase fw-bold rounded-0 px-4" id="refuse">
+                    odmítnout
+                </button>
+            </div>
+
+            <p class="text-center">
+                Na našich webech používáme volitelné soubory cookie ke zlepšení vašeho zážitku, například
+                prostřednictvím propojení se sociálními sítěmi a k zobrazování individuálně přizpůsobených reklam na
+                základě vaší online aktivity. Pokud volitelné soubory cookie odmítnete, budeme používat pouze soubory
+                cookie nezbytné k poskytování služeb. Svou volbu můžete změnit kliknutím na Spravovat soubory cookie v
+                dolní části stránky.
+            </p>
+
+            <div class="text-center">
+                <img src="img/sm-logo.png" class="img-fluid mt-5 mb-2" alt="">
+            </div>
+            <a href="" class="text-orange">Prohlášení o zásadách ochrany osobních údajů</a> <br>
+            <a href="" class="text-orange">Soubory cookie třetích stran</a>
+            </p>
+        </div>
+    </div>
+    <!-- cookie modal -->
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-white">
@@ -436,6 +467,20 @@
 
     <!-- app js -->
     <script src="js/app.js"></script>
+
+    <script>
+        const agree = document.getElementById('agree');
+        const refuse = document.getElementById('refuse');
+        const cookieCard = document.getElementById('cookie-card');
+
+        agree.addEventListener('click', () => {
+            cookieCard.style.display = 'none';
+        });
+
+        refuse.addEventListener('click', () => {
+            cookieCard.style.display = 'none';
+        });
+    </script>
 </body>
 
 </html>

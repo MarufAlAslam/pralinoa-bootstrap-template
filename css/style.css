@@ -133,6 +133,23 @@ iframe {
     transform: translateX(0);
 }
 
+
+.cookie-card {
+    max-width: 95%;
+    width: 500px;
+    padding: 40px 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    Z-INDEX: 1000000;
+    background: white;
+}
+.cookie-logo{
+    width: 8.125rem;
+}
+
 @media screen and (max-width: 767px) {
     .fs-48 {
         font-size: 1.875rem;
